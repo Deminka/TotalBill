@@ -12,6 +12,8 @@
 		041FD9EC2A59AF6F00A7986D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD9EB2A59AF6F00A7986D /* MainViewController.swift */; };
 		041FD9F12A59AF7200A7986D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041FD9F02A59AF7200A7986D /* Assets.xcassets */; };
 		041FD9F42A59AF7200A7986D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FD9F22A59AF7200A7986D /* LaunchScreen.storyboard */; };
+		041FD9FC2A59C00A00A7986D /* TotalBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD9FB2A59C00A00A7986D /* TotalBillView.swift */; };
+		041FD9FE2A59FCCB00A7986D /* PersonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FD9FD2A59FCCB00A7986D /* PersonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		041FD9F02A59AF7200A7986D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041FD9F32A59AF7200A7986D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041FD9F52A59AF7200A7986D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041FD9FB2A59C00A00A7986D /* TotalBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBillView.swift; sourceTree = "<group>"; };
+		041FD9FD2A59FCCB00A7986D /* PersonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				041FD9E72A59AF6F00A7986D /* AppDelegate.swift */,
 				041FD9E92A59AF6F00A7986D /* SceneDelegate.swift */,
 				041FD9EB2A59AF6F00A7986D /* MainViewController.swift */,
+				041FD9FB2A59C00A00A7986D /* TotalBillView.swift */,
+				041FD9FD2A59FCCB00A7986D /* PersonsView.swift */,
 				041FD9F02A59AF7200A7986D /* Assets.xcassets */,
 				041FD9F22A59AF7200A7986D /* LaunchScreen.storyboard */,
 				041FD9F52A59AF7200A7986D /* Info.plist */,
@@ -134,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041FD9FC2A59C00A00A7986D /* TotalBillView.swift in Sources */,
+				041FD9FE2A59FCCB00A7986D /* PersonsView.swift in Sources */,
 				041FD9EC2A59AF6F00A7986D /* MainViewController.swift in Sources */,
 				041FD9E82A59AF6F00A7986D /* AppDelegate.swift in Sources */,
 				041FD9EA2A59AF6F00A7986D /* SceneDelegate.swift in Sources */,
@@ -279,7 +287,7 @@
 				INFOPLIST_FILE = TotalBill/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +313,7 @@
 				INFOPLIST_FILE = TotalBill/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
